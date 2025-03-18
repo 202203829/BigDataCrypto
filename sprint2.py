@@ -12,7 +12,7 @@ glue = boto3.client('glue',
                   region_name="eu-south-2" 
                   )
 
-database_name = "trade_data_imat3a06"
+database_name = "trade_data_imat3a06v2"
 
 try:
     glue.create_database(
